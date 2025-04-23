@@ -42,3 +42,18 @@ window.removeExpense = removeExpense;
 
 // Initial render
 updateList();
+
+// Load expenses from localStorage on start
+const savedExpenses = localStorage.getItem('expenses');
+if (savedExpenses) {
+  expenses = JSON.parse(savedExpenses);
+  updateList();
+}
+
+// Update localStorage whenever expenses change
+function updateList() {
+  // existing code to update UI...
+  
+  // Save to localStorage
+  localStorage.setItem('expenses', JSON.stringify(expenses));
+}
