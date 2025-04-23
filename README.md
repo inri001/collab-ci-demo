@@ -35,13 +35,6 @@ A lightweight and easy-to-use web app to track your expenses. Built with plain H
 ├── style.css # CSS styles
 └── script.js # JavaScript logic
 
-text
-
-## Screenshots
-
-![Expense Tracker Screenshot](screenshot.png)  
-*Note: Add your own screenshot image here.*
-
 ## License
 
 This project is open source and free to use.
