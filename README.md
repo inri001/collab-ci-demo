@@ -31,8 +31,11 @@ A lightweight and easy-to-use web app to track your expenses. Built with plain H
 ## Project Structure
 
 / (project root)
+
 ├── index.html # Main HTML file
+
 ├── style.css # CSS styles
+
 └── script.js # JavaScript logic
 
 ## License
